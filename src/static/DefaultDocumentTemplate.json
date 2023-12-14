@@ -1,0 +1,764 @@
+{
+  "id": "6c78c251-c02d-4c1f-a3ba-1a3b42b54467",
+  "title": "Новый документ",
+  "description": "Шаблон определенного договора из определенной предметной области, созданный для определенных целей",
+  "marginLeft": 3,
+  "marginRight": 1.5,
+  "marginTop": 1,
+  "marginBottom": 1,
+  "editableAreaMarkers": [
+    "591bc17c-ac76-40fb-b6dc-495af1668bae"
+  ],
+  "format": {
+    "width": 21,
+    "height": 29.7,
+    "title": "A4"
+  },
+  "rules": [
+    {
+      "title": "Правило",
+      "options": [
+        {
+          "id": 1,
+          "value": "Select1"
+        },
+        {
+          "id": 2,
+          "value": "Select2"
+        },
+        {
+          "id": 3,
+          "value": "Select3"
+        }
+      ],
+      "cases": [
+        {
+          "targetOptions": [1, 2],
+          "range": [
+            "139bf172-5145-44e6-8293-61d513341c36",
+            "149bf172-5145-44e6-8293-61d513341c36",
+            "235bf172-5145-44e6-8293-61d513341c36"
+          ]
+        }
+      ],
+      "selectedValues": [1, 2]
+    },
+    {
+      "title": "Правило 2",
+      "options": [
+        {
+          "id": 1,
+          "value": "Select1"
+        },
+        {
+          "id": 2,
+          "value": "Select2"
+        },
+        {
+          "id": 3,
+          "value": "Select3"
+        }
+      ],
+      "cases": [
+        {
+          "targetOptions": [1,2,3],
+          "range": ["63e2a23c-d119-429b-87e0-ca7a26a2f189"]
+        },
+        {
+          "targetOptions": [1,2,3],
+          "range": ["63e2a23c-d119-429b-87e0-ca7a26a2f189"]
+        }
+      ],
+      "selectedValues": [1, 2]
+    }
+  ],
+  "elements": [
+    {
+      "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0.5,
+      "firstLineIndent": 0,
+      "elements": [
+        {
+          "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+          "type": "text",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "ЗАГОЛОВОК"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "center",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+      "type": "table",
+      "xLength": [100, 200],
+      "yLength": [100, 200],
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 0,
+      "elements": [
+        {
+          "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+          "type": "row",
+          "indentLeft": 0,
+          "indentRight": 0,
+          "spacingBefore": 0,
+          "spacingAfter": 0,
+          "firstLineIndent": 0,
+          "elements": [
+            {
+              "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+              "type": "cell",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "fontColor": "#000000",
+              "fontFamily": "Times",
+              "fontSize": 14,
+              "data": "ЗАГОЛОВОК",
+              "elements": [
+                {
+                  "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+                  "type": "paragraph",
+                  "indentLeft": 0,
+                  "indentRight": 0,
+                  "spacingBefore": 0,
+                  "spacingAfter": 0,
+                  "firstLineIndent": 0,
+                  "elements": [
+                    {
+                      "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+                      "type": "text",
+                      "bold": false,
+                      "italic": false,
+                      "underline": false,
+                      "fontColor": "#000000",
+                      "fontFamily": "Times",
+                      "fontSize": 14,
+                      "data": "Ячейка 1"
+                    }
+                  ],
+                  "lineHeight": 1.15,
+                  "align": "center",
+                  "listType": "none",
+                  "listLevel": 1,
+                  "listBullet": "●"
+                }
+              ]
+            },
+            {
+              "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+              "type": "cell",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "fontColor": "#000000",
+              "fontFamily": "Times",
+              "fontSize": 14,
+              "data": "ЗАГОЛОВОК",
+              "elements": [
+                {
+                  "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+                  "type": "paragraph",
+                  "indentLeft": 0,
+                  "indentRight": 0,
+                  "spacingBefore": 0,
+                  "spacingAfter": 0.5,
+                  "firstLineIndent": 0,
+                  "elements": [
+                    {
+                      "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+                      "type": "text",
+                      "bold": true,
+                      "italic": false,
+                      "underline": false,
+                      "fontColor": "#000000",
+                      "fontFamily": "Times",
+                      "fontSize": 14,
+                      "data": "Ячейка 2"
+                    }
+                  ],
+                  "lineHeight": 1.15,
+                  "align": "center",
+                  "listType": "none",
+                  "listLevel": 1,
+                  "listBullet": "●"
+                }
+              ]
+            }
+          ],
+          "lineHeight": 1.15,
+          "align": "center",
+          "listType": "none",
+          "listLevel": 1,
+          "listBullet": "●"
+        },
+        {
+          "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+          "type": "row",
+          "indentLeft": 0,
+          "indentRight": 0,
+          "spacingBefore": 0,
+          "spacingAfter": 0.5,
+          "firstLineIndent": 0,
+          "elements": [
+            {
+              "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+              "type": "cell",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "fontColor": "#000000",
+              "fontFamily": "Times",
+              "fontSize": 14,
+              "data": "ЗАГОЛОВОК",
+              "elements": [
+                {
+                  "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+                  "type": "paragraph",
+                  "indentLeft": 0,
+                  "indentRight": 0,
+                  "spacingBefore": 0,
+                  "spacingAfter": 0.5,
+                  "firstLineIndent": 0,
+                  "elements": [
+                    {
+                      "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+                      "type": "text",
+                      "bold": true,
+                      "italic": false,
+                      "underline": false,
+                      "fontColor": "#000000",
+                      "fontFamily": "Times",
+                      "fontSize": 14,
+                      "data": "текст в третьей ячейка длинный чтоб я понимала че работает оно или нет"
+                    }
+                  ],
+                  "lineHeight": 1.15,
+                  "align": "center",
+                  "listType": "none",
+                  "listLevel": 1,
+                  "listBullet": "●"
+                }
+              ]
+            },
+            {
+              "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+              "type": "cell",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "fontColor": "#000000",
+              "fontFamily": "Times",
+              "fontSize": 14,
+              "data": "ЗАГОЛОВОК",
+              "elements": [
+                {
+                  "id": "be4ecde4-1995-465f-8de4-b295a2669a7c",
+                  "type": "paragraph",
+                  "indentLeft": 0,
+                  "indentRight": 0,
+                  "spacingBefore": 0,
+                  "spacingAfter": 0.5,
+                  "firstLineIndent": 0,
+                  "elements": [
+                    {
+                      "id": "c39cd21b-5eb7-4f7e-a4e9-014a4d606ba0",
+                      "type": "text",
+                      "bold": true,
+                      "italic": false,
+                      "underline": false,
+                      "fontColor": "#000000",
+                      "fontFamily": "Times",
+                      "fontSize": 14,
+                      "data": "Ячейка 4"
+                    }
+                  ],
+                  "lineHeight": 1.15,
+                  "align": "center",
+                  "listType": "none",
+                  "listLevel": 1,
+                  "listBullet": "●"
+                }
+              ]
+            }
+          ],
+          "lineHeight": 1.15,
+          "align": "center",
+          "listType": "none",
+          "listLevel": 1,
+          "listBullet": "●"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "center",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "02d701ac-ef58-4172-82cb-25b72ec13e35",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "a84d6dbb-d7da-4d7d-8f50-d10260f6e7ff",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "Однозначно, непосредственные участники технического прогресса "
+        },
+        {
+          "id": "a84dedbb-d7da-4d7d-8f50-d10260f6e7ff",
+          "type": "text",
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": " набирают популярность среди определенных слоев населения "
+        },
+        {
+          "id": "9adad186-aba9-4a1c-8c9e-4d7ad527870a",
+          "type": "input",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "title": "Поле ввода"
+        },
+        {
+          "id": "a85dedbb-d7da-4d7d-8f50-d10260f6e7ff",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": ", а значит, должны быть функционально разнесены на независимые элементы. "
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "02d651ac-ef58-4172-82cb-25b72ec13e35",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "a83dsdbb-d7da-4d7d-8f50-d10260f6e7ff",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": ""
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "591bc17c-ac76-40fb-b6dc-495af1668bae",
+      "type": "paragraph",
+      "indentLeft": 2.5,
+      "indentRight": 1,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": -1.25,
+      "elements": [
+        {
+          "id": "a83dedbb-d7da-4d7d-8f50-d10260f6e7ff",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "Кстати, независимые государства подвергнуты целой серии независимых исследований. Прежде всего, перспективное планирование предопределяет высокую востребованность направлений прогрессивного развития. "
+        },
+        {
+          "id": "b3dcac13-e114-48fe-94a1-a2f168462eca",
+          "type": "input",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "title": "Поле ввода"
+        },
+        {
+          "id": "a5019af1-1349-491b-bb98-a9a009c3c200",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": " Следует отметить, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует повышению качества дальнейших направлений развития."
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "45b50ae5-8564-4d58-91b7-bc2334767793",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": -1.25,
+      "elements": [
+        {
+          "id": "139bf172-5145-44e6-8293-61d513341c36",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так."
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "bulleted",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "4328418f-c845-4354-af31-200c05df23a3",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": -1.25,
+      "elements": [
+        {
+          "id": "149bf172-5145-44e6-8293-61d513341c36",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад."
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "bulleted",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "d816319e-0479-4464-8906-d7e22bf55691",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "235bf172-5145-44e6-8293-61d513341c36",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "Чел "
+        },
+        {
+          "id": "9b3c28e0-9df5-4b6b-b927-37067a1ed657",
+          "type": "input",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "title": "Поле ввода"
+        },
+        {
+          "id": "70922841-be1a-482e-ae75-cd6014a9a7d6",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": " Ричард Мак Клин ток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, 'consectetur', и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги 'de Finibus Bonorum et Malorum' ('О пределах добра и зла'), написанной Цицероном в 45 году н.э. "
+        },
+        {
+          "id": "07947d18-552d-4158-b8d1-4653dd04285a",
+          "type": "input",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "title": "Поле ввода"
+        },
+        {
+          "id": "4c1a4809-5b7e-47d4-a7c9-6060bac0bd55",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": " Этот трактат по теории этики был очень популярен в эпоху Возрождения. Первая строка Lorem Ipsum, 'Lorem ipsum dolor sit amet..', происходит от одной из строк в разделе 1.10.32"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "fa225224-284f-4390-820b-65707cd072c9",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0.25,
+      "firstLineIndent": 0,
+      "elements": [
+        {
+          "id": "63e2a23c-d119-429b-87e0-ca7a26a2f189",
+          "type": "text",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "Список"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "center",
+      "listType": "none",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "a1275cee-1dcb-45ea-81e5-3dcce8c1139b",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "84c6802a-c13b-4abb-937b-0ba7286c5f41",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "In most browsers"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "numbered",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "6ec3193e-dc63-4c33-bece-86db56ba59b4",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "1a1c8844-61e2-4c65-a2db-49d680d4668d",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "you need the Range and Selection objects."
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "numbered",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "26254de4-dcf8-4edb-a455-204b3c788661",
+      "type": "paragraph",
+      "indentLeft": 0.5,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "a2e3ca92-4f0a-41aa-8577-7f2a2fbc80b9",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "You specify each of the selection"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "numbered",
+      "listLevel": 2,
+      "listBullet": "●"
+    },
+    {
+      "id": "b0532210-c4ef-4bb2-99c8-764a39db833e",
+      "type": "paragraph",
+      "indentLeft": 0.5,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "005a1bab-f47b-4b56-940b-03f5c8c9029b",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "boundaries as a node and"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "numbered",
+      "listLevel": 2,
+      "listBullet": "●"
+    },
+    {
+      "id": "2eb3d905-2e27-4848-b5c5-740424e7ae35",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "0e5abcfc-ad11-4996-bf1c-286bf1975f4e",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "an offset within that node. "
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "numbered",
+      "listLevel": 1,
+      "listBullet": "●"
+    },
+    {
+      "id": "a2e695cc-a67f-4f72-9c0f-03d3179c3170",
+      "type": "paragraph",
+      "indentLeft": 0,
+      "indentRight": 0,
+      "spacingBefore": 0,
+      "spacingAfter": 0.5,
+      "firstLineIndent": 1.25,
+      "elements": [
+        {
+          "id": "6039b847-c976-44a9-a903-f588f7d304ed",
+          "type": "text",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "fontColor": "#000000",
+          "fontFamily": "Times",
+          "fontSize": 14,
+          "data": "For example, to set the caret to the fifth character of the second line of text, you'd do the following:"
+        }
+      ],
+      "lineHeight": 1.15,
+      "align": "justify",
+      "listType": "numbered",
+      "listLevel": 1,
+      "listBullet": "●"
+    }
+  ]
+}
